@@ -4,7 +4,7 @@
 
 let array1 = [3, 9, 23, 64, 2, 8, 28, 93];
 let lastMinusFirst = array1[array1.length - 1] - array1[0];
-console.log("Last - First: "  + lastMinusFirst);
+console.log("Last - First:", lastMinusFirst);
 
 array1.push(42);
 console.log(array1);
@@ -144,8 +144,8 @@ function numbers(arrnums) {
     }
  }
 
- willBuyDrink("yes", 10)
+ willBuyDrink("yes", 20)
 
  // Question 13
 
- 
+
