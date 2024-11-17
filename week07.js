@@ -43,3 +43,27 @@ console.log(names[0]);
 
 // Question 5
 
+let nameLengths = [];
+for (let i = 0; i < names.length; i++ ) {
+    nameLengths.push(names[i].length)
+}
+console.log("The lengths of the names is:", nameLengths)
+
+// Question 6
+let totalNameLengths = 0;
+for (let i = 0; i < nameLengths.length; i++ ) {
+    totalNameLengths += nameLengths[i];
+}
+console.log("The total length of all the names is:", totalNameLengths)
+
+// Question 7
+
+function repeatWord(word, n) {
+    console.log("Word:", word, "Repeat:", n, "times");
+    let echo = word.repeat(n); 
+    console.log(echo);
+}
+repeatWord("Yaddah", 4)
+
+// Question 8
+
