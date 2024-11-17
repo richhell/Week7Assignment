@@ -34,4 +34,12 @@ for (let i = 0; i < names.length; i++) {
     console.log("Concatenated Names:", allNames) 
 }
 // Question 3
+// Using the names array above:
+console.log(names[names.length - 1]);
+
+//Question 4
+// Using the names array above:
+console.log(names[0]);
+
+// Question 5
 
